@@ -252,14 +252,15 @@ export default function HomePage() {
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <h3 className="text-2xl font-bold text-[#79287a] mb-6">Our Location</h3>
             <div className="aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg overflow-hidden mb-6">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.317764483648!2d88.38837231533804!3d22.52523533875315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0273f21f087e4d%3A0x82de9c2d6aab84c2!2sShri%20Shri%20Hari%20Misthanna%20Bhandar!5e0!3m2!1sen!2sin!4v1640000000000!5m2!1sen!2sin"
-                width="100%" 
-                height="400" 
-                style={{ border: 0 }} 
-                allowFullScreen="" 
-                loading="lazy"
-              ></iframe>
+              <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.5935434357857!2d88.37912879999999!3d22.519428199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02771cd812505b%3A0x1fce896f24ac86f3!2sBeauty%20For%20You!5e0!3m2!1sen!2sin!4v1756812912288!5m2!1sen!2sin"
+    width="100%"
+    height="400"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
             </div>
             <div className="space-y-4">
               <div className="flex items-start">
