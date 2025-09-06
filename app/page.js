@@ -43,45 +43,58 @@ export default function HomePage() {
       <HeroSection />
       {/* About Us Section */}
       <section className="py-16 px-4 bg-[#fefaf5]">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-12">
-            <div className="flex justify-center">
-              <img src="/flower.png" alt="Flower" width={60} height={60} />
-            </div>
-            <h2 style={{ fontFamily: 'var(--font-sacramento)' }} className="text-5xl md:text-6xl text-[#79287a] mb-4">
-              Our Story
-            </h2>
-            <div className="w-24 h-1 bg-[#A06718] mx-auto mb-8"></div>
-          </div>
-          
-          <div className="text-center max-w-3xl mx-auto">
-            <p className="text-lg text-gray-700 mb-6">
-              Since October 2019, Beauty For You has been providing premium beauty services to our valued clients in Kolkata.
-            </p>
-            <p className="text-lg text-gray-700 mb-6">
-              With 6 years of dedicated service in this area, we have built lasting trust with our clients, who choose to return to us time and again.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <FaPhone className="text-3xl text-[#A06718] mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Call Us</h3>
-                <p className="text-gray-600">8420507317</p>
-                <p className="text-gray-600">7003619561</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <FaEnvelope className="text-3xl text-[#A06718] mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Email Us</h3>
-                <p className="text-gray-600">Beautyforyou961@gmail.com</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <FaMapMarkerAlt className="text-3xl text-[#A06718] mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Visit Us</h3>
-                <p className="text-gray-600">38/f Rajkrishna Chatterjee Road, New Ballygunge, Kasba, Kolkata, West Bengal, 700042</p>
-              </div>
-            </div>
-          </div>
+  <section className="py-16 px-4 bg-[#fefaf5]">
+  <div className="container mx-auto max-w-6xl">
+    {/* Shop Image Section - Centered with proper styling */}
+    <div className="mb-12 flex justify-center">
+      <div className="rounded-lg overflow-hidden shadow-lg max-w-2xl">
+        <img 
+          src="/shop.png" 
+          alt="Beauty For You Shop" 
+          className="w-full h-64 md:h-96 object-cover mx-auto"
+        />
+      </div>
+    </div>
+    
+    <div className="text-center mb-12">
+      <div className="flex justify-center">
+        <img src="/flower.png" alt="Flower" width={60} height={60} />
+      </div>
+      <h2 style={{ fontFamily: 'var(--font-sacramento)' }} className="text-5xl md:text-6xl text-[#79287a] mb-4">
+        Our Story
+      </h2>
+      <div className="w-24 h-1 bg-[#A06718] mx-auto mb-8"></div>
+    </div>
+    
+    <div className="text-center max-w-3xl mx-auto">
+      <p className="text-lg text-gray-700 mb-6">
+        Since October 2019, Beauty For You has been providing premium beauty services to our valued clients in Kolkata.
+      </p>
+      <p className="text-lg text-gray-700 mb-6">
+        With 6 years of dedicated service in this area, we have built lasting trust with our clients, who choose to return to us time and again.
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <FaPhone className="text-3xl text-[#A06718] mx-auto mb-4" />
+          <h3 className="text-xl font-semibold mb-2">Call Us</h3>
+          <p className="text-gray-600">8420507317</p>
+          <p className="text-gray-600">7003619561</p>
         </div>
-      </section>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <FaEnvelope className="text-3xl text-[#A06718] mx-auto mb-4" />
+          <h3 className="text-xl font-semibold mb-2">Email Us</h3>
+          <p className="text-gray-600">Beautyforyou961@gmail.com</p>
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <FaMapMarkerAlt className="text-3xl text-[#A06718] mx-auto mb-4" />
+          <h3 className="text-xl font-semibold mb-2">Visit Us</h3>
+          <p className="text-gray-600">38/f Rajkrishna Chatterjee Road, New Ballygunge, Kasba, Kolkata, West Bengal, 700042</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</section>
 
       {/* Services Section */}
       <section className="py-16 px-4 bg-[#f4fdff]">
@@ -269,7 +282,7 @@ export default function HomePage() {
               </div>
               <div className="flex items-center">
                 <FaPhone className="text-[#A06718] mr-3" />
-                <p>8420507317 / 7003619561</p>
+                <p>8420507317</p>
               </div>
               <div className="flex items-center">
                 <FaEnvelope className="text-[#A06718] mr-3" />

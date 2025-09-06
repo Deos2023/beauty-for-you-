@@ -71,7 +71,7 @@ export default function Footer() {
                 <FaPhone className="mt-1 mr-3 text-[#A06718]" />
                 <div>
                   <a href="tel:8420507317" className="text-[#f0e6d9] hover:text-[#A06718] transition-colors block">8420507317</a>
-                  <a href="tel:7003619561" className="text-[#f0e6d9] hover:text-[#A06718] transition-colors block">7003619561</a>
+                  {/* <a href="tel:7003619561" className="text-[#f0e6d9] hover:text-[#A06718] transition-colors block">7003619561</a> */}
                 </div>
               </li>
               <li className="flex items-start">
@@ -98,7 +98,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-[#f0e6d9] mb-4 md:mb-0 text-center md:text-left">
             &copy; {new Date().getFullYear()} Beauty For You. All rights reserved.<br />
-            With 6 years of dedicated service in this area.
+            Website Developed & Maintained by Digital Exposure Online Services .
           </p>
           <div className="flex space-x-4">
             <a href="#" className="text-[#f0e6d9] hover:text-[#A06718] transition-colors text-sm">Privacy Policy</a>
