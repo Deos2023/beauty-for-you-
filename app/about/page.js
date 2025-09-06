@@ -98,7 +98,7 @@ export default function AboutPage() {
                   <div>
                     <h4 className="font-semibold text-gray-800">Phone</h4>
                     <p className="text-gray-600">8420507317</p>
-                    <p className="text-gray-600">7003619561</p>
+                    {/* <p className="text-gray-600">7003619561</p> */}
                   </div>
                 </div>
                 <div className="flex items-start">

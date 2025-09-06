@@ -78,7 +78,7 @@ export default function HomePage() {
           <FaPhone className="text-3xl text-[#A06718] mx-auto mb-4" />
           <h3 className="text-xl font-semibold mb-2">Call Us</h3>
           <p className="text-gray-600">8420507317</p>
-          <p className="text-gray-600">7003619561</p>
+          {/* <p className="text-gray-600">7003619561</p> */}
         </div>
         <div className="bg-white p-6 rounded-lg shadow-md">
           <FaEnvelope className="text-3xl text-[#A06718] mx-auto mb-4" />
